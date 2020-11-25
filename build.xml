@@ -31,6 +31,12 @@
         <pathelement location="../../Apache/commons-math3-3.6.1/commons-math3-3.6.1.jar"/>
         <pathelement location="../../Apache/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar"/>
     </path>
+	<target name="compile" depends="prepare">        
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" debug="true" deprecation="true" includeantruntime="on" >
+			<compilerarg line="-encoding UTF-8 " />
+			<classpath refid="compile.classpath" />
+		</javac>
+	</target>
     <target name="init">
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
