@@ -20,7 +20,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\App Tool\IDEA\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="D:\Developer\Maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Developer\Maven\mavenrepository\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -33,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Apache/commons-math3-3.6.1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,7 +44,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="应用程序.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -91,7 +93,11 @@
       <option name="presentableId" value="Default" />
       <updated>1606399165205</updated>
       <workItem from="1606399168664" duration="2048000" />
-      <workItem from="1606401966882" duration="457000" />
+      <workItem from="1606401966882" duration="3499000" />
+      <workItem from="1606406487427" duration="631000" />
+      <workItem from="1606407180862" duration="724000" />
+      <workItem from="1606407947484" duration="277000" />
+      <workItem from="1606440882642" duration="504000" />
     </task>
     <servers />
   </component>
@@ -103,29 +109,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606399241951" />
+    <state x="581" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606441052010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="581" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1606441052010" />
     <state x="249" y="0" key="#项目结构" timestamp="1606399564928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1606399564928" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1606402380111">
+    <state x="567" y="287" key="DetectedRootsChooserDialog" timestamp="1606408146138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606402380111" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1606402380111">
+    <state x="567" y="287" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1606408146138" />
+    <state x="570" y="153" key="FileChooserDialogImpl" timestamp="1606441042919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606402380111" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1606402380111">
+    <state x="570" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606441042919" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1606406422787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606402380111" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1606402380111">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606406422787" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1606406422787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606402380111" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1606399857248">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606406422787" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1606406422786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606399857248" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606406422786" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1606406422787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606406422787" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1606441393044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606441393044" />
   </component>
 </project>
