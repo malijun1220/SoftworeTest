@@ -12,7 +12,6 @@ public class FunctionTest {
         System.out.println("testrun1");
         Function test = new Function(5000);
         test.run(false);
-        System.out.println();
         test.run(true);
     }
     @Test
@@ -20,7 +19,6 @@ public class FunctionTest {
         System.out.println("testrun2");
         Function test = new Function(300);
         test.run(false);
-        System.out.println();
         test.run(true);
     }
     @Test
@@ -28,7 +26,6 @@ public class FunctionTest {
         System.out.println("testrun3");
         Function test = new Function(1000);
         test.run(true);
-        System.out.println();
         test.run(false);
     }
 }
